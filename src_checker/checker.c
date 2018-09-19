@@ -6,7 +6,7 @@
 /*   By: jtsai <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/30 16:31:26 by jtsai             #+#    #+#             */
-/*   Updated: 2018/09/15 15:49:24 by jtsai            ###   ########.fr       */
+/*   Updated: 2018/09/19 14:47:53 by jtsai            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ int	check_unique_c(t_stack *stack)
 		if (stack->sort[i - 1] == stack->sort[i])
 			return (-1);
 	}
-	return (1);	
+	return (1);
 }
 
 int	main(int ac, char **av)
