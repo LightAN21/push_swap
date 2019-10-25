@@ -18,3 +18,10 @@ The program "push_swap" takes integer arguments, then calculates and displays on
 ### The "checker" program
 The program "checker" takes integer arguments and reads instructions on the standard output. Once read, checker executes them and displays OK if integers are sorted. Otherwise, it will display KO.
 
+### Auto run and check
+A shell script is written in "random_num.sh". The script will generate a random list of positive integers, run the "push_swap" program, and check the output by "checker" program automatically. There will be 25 numbers in the number list as a default.
+
+* sh random_num.sh
+
+If you want to have more numbers in the input number list, change the number "25" in the first line of the script.
+
