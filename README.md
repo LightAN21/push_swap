@@ -26,9 +26,9 @@ A shell script is written in "random_num.sh". The script will generate a random 
 If you want to have different numbers in the input number list, you can change the number "25" in the first line of the script to the number you want.
 
 ### Example
-'''
+```
 ARG=`ruby -e "puts (1..75).to_a.shuffle.join(' ')"`
 echo $ARG
 ./push_swap $ARG | ./checker -m $ARG
-'''
+```
 
