@@ -27,9 +27,9 @@ If you want to have different numbers in the input number list, you can change t
 
 ### Example
 ```
-ARG=`ruby -e "puts (1..75).to_a.shuffle.join(' ')"`
-echo $ARG
-./push_swap $ARG | ./checker -m $ARG
+$> ARG=`ruby -e "puts (1..75).to_a.shuffle.join(' ')"`
+$> echo $ARG
+$> ./push_swap $ARG | ./checker -m $ARG
 ```
 Running environment: macOS
 
