@@ -31,4 +31,5 @@ ARG=`ruby -e "puts (1..75).to_a.shuffle.join(' ')"`
 echo $ARG
 ./push_swap $ARG | ./checker -m $ARG
 ```
-Running environment: MacOS
+Running environment: macOS
+![](push_swap_example.gif)
