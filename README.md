@@ -32,4 +32,5 @@ echo $ARG
 ./push_swap $ARG | ./checker -m $ARG
 ```
 Running environment: macOS
+
 ![](push_swap_example.gif)
